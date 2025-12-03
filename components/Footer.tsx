@@ -11,7 +11,6 @@ export const Footer: React.FC = () => {
         
         <div className="text-sm text-gray-400">
             <p>Prepared by: <span className="text-cyan-400">Thuraya Al-Mata'ni</span></p>
-            <p className="font-arabic text-xs mt-1">إعداد: ثريا السعيد حمد المطاعني</p>
         </div>
         
         <div className="text-xs text-gray-600">

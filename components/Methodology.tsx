@@ -65,7 +65,7 @@ export const Methodology: React.FC = () => {
                             {index === 2 && (
                                 <div className="mt-3 inline-flex items-center gap-2 px-3 py-1 bg-green-900/30 border border-green-500/30 rounded-full text-xs text-green-300">
                                     <BedDouble className="w-3 h-3" />
-                                    Pilot: Men's Ward
+                                    Trial done: Male Ward
                                 </div>
                             )}
                         </div>

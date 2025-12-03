@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { LineChart, Line, ResponsiveContainer, AreaChart, Area } from 'recharts';
+import { ResponsiveContainer, AreaChart, Area } from 'recharts';
 import { Bell, Puzzle, TrendingUp, Cpu } from 'lucide-react';
 
 const data = [

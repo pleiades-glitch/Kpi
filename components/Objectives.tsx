@@ -9,7 +9,7 @@ export const Objectives: React.FC = () => {
         title: "Digital Interface", 
         ar: "واجهة رقمية",
         color: "text-blue-400",
-        pos: "top-[-80px] left-1/2 -translate-x-1/2" 
+        pos: "top-0 left-1/2 -translate-x-1/2" 
     },
     { 
         icon: <Bot />, 
@@ -43,7 +43,7 @@ export const Objectives: React.FC = () => {
 
   return (
     <section className="py-10 flex flex-col items-center">
-      <div className="text-center mb-16">
+      <div className="text-center mb-32">
         <h2 className="text-4xl font-bold mb-2">Core Objectives</h2>
         <p className="text-cyan-400 font-arabic text-xl">الأهداف الرئيسية</p>
       </div>
@@ -62,7 +62,7 @@ export const Objectives: React.FC = () => {
 
         {/* Center Text */}
         <div className="absolute inset-0 flex items-center justify-center z-10">
-            <div className="text-center bg-deep-bg/80 backdrop-blur-md p-4 rounded-full border border-cyan-500/50 shadow-[0_0_30px_rgba(6,182,212,0.3)]">
+            <div className="text-center bg-deep-bg/80 backdrop-blur-md p-4 rounded-full border border-cyan-500/50 shadow-[0_0_50px_rgba(6,182,212,0.5)]">
                 <h3 className="text-2xl font-black text-white">5</h3>
                 <p className="text-xs text-cyan-300 uppercase tracking-widest">Pillars</p>
             </div>
@@ -78,7 +78,7 @@ export const Objectives: React.FC = () => {
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1, duration: 0.5 }}
             >
-                <div className={`p-4 bg-gray-900/90 rounded-2xl border border-gray-700 shadow-xl mb-2 group hover:scale-110 transition-transform duration-300 hover:border-cyan-500 hover:shadow-[0_0_15px_rgba(6,182,212,0.4)]`}>
+                <div className={`p-4 bg-gray-900/90 rounded-2xl border border-gray-700 shadow-xl mb-2 group hover:scale-110 hover:-translate-y-2 transition-all duration-300 hover:border-cyan-500 hover:shadow-[0_10px_25px_rgba(6,182,212,0.5)]`}>
                     <div className={`w-8 h-8 ${item.color}`}>
                         {item.icon}
                     </div>

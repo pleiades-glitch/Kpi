@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Timer, Zap, Star, QrCode } from 'lucide-react';
+import { Timer, Zap, Star } from 'lucide-react';
 
 export const AddedValue: React.FC = () => {
   return (
@@ -62,7 +62,11 @@ export const AddedValue: React.FC = () => {
         whileHover={{ scale: 1.05 }}
       >
         <div className="bg-white p-2 rounded-lg mb-4">
-            <QrCode className="w-24 h-24 text-black" />
+            <img 
+              src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://vblvhtyl.manus.space/" 
+              alt="QR Code for Manus Platform" 
+              className="w-24 h-24"
+            />
         </div>
         <p className="text-xs text-gray-400 mb-2 uppercase tracking-widest">Scan to Access</p>
         <a href="https://vblvhtyl.manus.space/" target="_blank" rel="noreferrer" className="text-cyan-400 hover:text-cyan-300 underline font-bold">
